@@ -1,0 +1,87 @@
+header,
+nav {
+	text-align: center;
+	line-height: 100px;
+	width: 100px;
+	height: 100px;
+}
+
+header {
+	background: #ccc;
+}
+
+nav {
+	display: inline-block;
+	background: #eee;
+	border-radius: 50%;
+	behavior: url(PIE.htc);
+	/*要引入js*/
+}
+
+nav:hover {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+footer {
+	/*display: flex;*/
+	background: darkgoldenrod;
+	/*清浮动1*/
+	/*overflow: hidden;*/
+	/*清浮动2*/
+	/*height: 100px;*/
+}
+
+
+/*清浮动4*/
+
+
+/*ie8以上*/
+
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+
+/*清浮动5*/
+
+
+/*ie8以下*/
+
+
+/*.clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}*/
+
+footer .left,
+footer .right {
+	text-align: center;
+	width: 50%;
+	height: 100px;
+	line-height: 50px;
+}
+
+footer .left {
+	float: left;
+}
+
+footer .right {
+	float: right;
+}
+
+.bgSize {
+	width: 500px;
+	height: 500px;
+	background: #eee url(white.png) no-repeat center center;
+	background-size: 30%;
+	behavior: url(backgroundsize.min.htc);
+}
