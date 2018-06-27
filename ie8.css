@@ -15,6 +15,7 @@ nav {
 	background: #eee;
 	border-radius: 50%;
 	behavior: url(PIE.htc);
+	padding: 15px;
 	/*要引入js*/
 }
 
